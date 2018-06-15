@@ -1,3 +1,8 @@
+/**
+ * https://www.reddit.com/r/dailyprogrammer/comments/8jcffg/20180514_challenge_361_easy_tally_program/
+ * tally players scores and sort
+ */
+
 import java.util.Scanner;
 
 public class Tally {
