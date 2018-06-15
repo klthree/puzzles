@@ -26,12 +26,11 @@ public class PickPeaks {
     
     public static void main(String[] args) {
 
+       // test
        int[] arr = {3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3}; 
 
        Map <String, List<Integer>> mp = getPeaks(arr);
-
-       
-
+        
        for (String s: mp.keySet()) {
            System.out.println(s + " = " + Arrays.toString(mp.get(s).toArray()));
        }        
